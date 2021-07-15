@@ -1,0 +1,37 @@
+header{
+    background: gray;
+}
+
+.cabecalho{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    padding: 2.5em 2.5em 2.5em 0;
+    text-align: center;
+    
+}
+
+.tituloEDescricao{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.logoAdega{
+    font-size: 15px;
+    width: 35%;  
+}
+
+.titulo{
+    font-size: 6em;
+    color: black;
+    text-shadow: 10px 10px 10px white,
+    10px 10px 10px red;         
+}
+
+.descricaoTitulo{
+    font-size: 1.5em;
+    color: white;
+    padding: 15px 0 0 0;
+
+}
