@@ -1,16 +1,18 @@
-header{
-    background: gray;
-}
+/* START HEADER */
 
+/*Caixa de Header*/
 .cabecalho{
+    background:#E8E8E8;
     width: 940px;
-    margin: 0 auto;
+    margin: 2.5em auto 0 auto;
     position: relative;
     padding: 2.5em 2.5em 2.5em 0;
     text-align: center;
-    
+    box-shadow: 5px 5px 15px 15px #000000;
+   
 }
 
+/*Titulo e Descricao */
 .tituloEDescricao{
     display: inline-block;
     text-align: center;
@@ -24,14 +26,15 @@ header{
 
 .titulo{
     font-size: 6em;
-    color: black;
-    text-shadow: 10px 10px 10px white,
-    10px 10px 10px red;         
+    color: 	#EEDD82;
+    text-shadow: -5px 5px #CD0000, -8px 8px#FFFFFF;            
 }
 
 .descricaoTitulo{
     font-size: 1.5em;
-    color: white;
+    color: #8B2323;
     padding: 15px 0 0 0;
 
 }
+
+/* END HEADER */
