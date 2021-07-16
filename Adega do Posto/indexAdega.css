@@ -1,7 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background-image: url("fundo.jpg");
-    background-size: cover;
+    background: gray;
 }
 /* START HEADER */
 
@@ -45,6 +44,7 @@ body{
 
 /*START MAIN */
 
+
 main{
     width: 940px;
     margin: 6em auto 0 auto;
@@ -52,37 +52,132 @@ main{
     box-shadow: 5px 5px 15px 15px #363636;
     border-radius: 15px;
     padding: 10px;
+    line-height: 1.2;
 }
 
 /*START nosso Espaco */
 
-.hAmbiente, .hServicos{
+/*Config de todos os Titulos */
+.hAmbiente, .hProdutos, .hNossoEstabelecimento{
     font-size: 4em;
     text-align: center;
     padding: 1em 0 1em 0;
     font-family: 'Lobster', cursive;
 }
 
-.distribuidoraImagem{
-    width: 100%;   
-    opacity: 0.7;
-}
-
-.distribuidoraImagem:hover{
-    opacity: 0.8;   
-}
-
-.pAmbiente{
+/* Config de Todos os Paragrafos */
+.pAmbiente, .pProdutos{
     font-size: 1.5em;
     font-style: italic;
     padding: 0.5em;
     text-align: justify;
+    text-indent: 2.5em;
+}
+
+.distribuidoraImagem{
+    width: 100%; 
+    border-radius: 2em;  
+}
+
+.distribuidoraImagem:hover{
+    opacity: 0.6;   
 }
 
 /*END Conheca nosso Espaco */
 
 /*START Produtos e Servicos */
 
+.produtos{
+    padding: 0 0 2em 0;
+}
+.bebidasImagem{
+    width: 30%;
+    margin: 15px 0px 0 80px; 
+    border-radius: 2em;     
+}
 
+.bebidasImagem:hover{
+    opacity: 0.6;
+}
+.listaProdutosServicos{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5em 3em 1em; 
+    font-size: 1.5em; 
+}
+
+.liProdutos:first-child, .liServicos:first-child{
+    font-weight: bold;  
+}
+.liProdutos:before, .liServicos:before{
+    content: "🍺"; 
+    font-size: 0.8em;
+}
+.listaServicos{
+    padding: 1.5em 0 0 0;
+}
 /*END Produtos e Servicos */
+
+/*START Nosso Estabelecimento */
+.pNossoEstabelecimento{
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0 0 1em 0;
+}
+.mapa{
+    margin: 0 auto;
+    padding: 0 1em 2em 1em;
+}
+.videoNossoEstabelecimento{
+    padding: 3em;
+}
+
+.tabelaHorarios{
+    margin: 2em auto 2em auto;
+    border: 2px solid #000000;
+}
+
+th, td{
+    border: 2px solid #000000;
+    padding: 1em;
+    text-align: center;
+}
+
+th{
+    background: #000000;
+    color: #FFFFFF;
+}
+
+td{
+    background: #363636;
+    color: #FFFFFF;
+}
+/*END Nosso Estabelecimento
 /*END MAIN */
+
+/* START FOOTER */
+footer{
+    width: 940px;
+    margin: 6em auto 2em auto;
+    background: #E8E8E8;
+    box-shadow: 5px 5px 15px 15px #363636;
+    border-radius: 15px;
+}
+
+.logoAdegaFooter{
+    width: 50%;
+    padding: 0 0 0 12em;
+}   
+.pRodape{
+    text-align: center;
+    padding: 0 0 1em 0;
+}
+.pRodape:before{
+    content: "✦";
+}
+
+.pRodape:after{
+    content: "✦";
+}
+
+/* END FOOTER */
