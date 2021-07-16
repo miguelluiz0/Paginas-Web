@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background: #D3D3D3;
+    background-image: url("fundo.jpg");
+    background-size: cover;
 }
 /* START HEADER */
 
@@ -13,6 +14,7 @@ body{
     padding: 2.5em 2.5em 2.5em 0;
     text-align: center;
     box-shadow: 5px 5px 15px 15px #363636;   
+    border-radius: 15px;
 }
 
 /*Titulo e Descricao */
@@ -27,7 +29,7 @@ body{
     width: 35%;  
 }
 
-.titulo{
+.hTitulo{
     font-size: 6em;
     color: 	#FFD700;
     text-shadow: -5px 5px #CD0000, -8px 8px#FFFFFF;            
@@ -47,14 +49,14 @@ main{
     width: 940px;
     margin: 6em auto 0 auto;
     background: #E8E8E8;
-}
-
-/*START 'nosso Espaco' */
-main{
     box-shadow: 5px 5px 15px 15px #363636;
+    border-radius: 15px;
     padding: 10px;
 }
-.ambiente, .servicos{
+
+/*START nosso Espaco */
+
+.hAmbiente, .hServicos{
     font-size: 4em;
     text-align: center;
     padding: 1em 0 1em 0;
@@ -67,16 +69,20 @@ main{
 }
 
 .distribuidoraImagem:hover{
-    width: 101%;
-    opacity: 0.8;
-   
+    opacity: 0.8;   
 }
 
 .pAmbiente{
     font-size: 1.5em;
     font-style: italic;
     padding: 0.5em;
-    text-align: center;
+    text-align: justify;
 }
-/*END 'Conheca nosso Espaco' */
+
+/*END Conheca nosso Espaco */
+
+/*START Produtos e Servicos */
+
+
+/*END Produtos e Servicos */
 /*END MAIN */
