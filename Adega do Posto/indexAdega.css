@@ -1,14 +1,16 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background: gray;
+    background: linear-gradient(#b1aaa1, #c79e6b 70%);
 }
+
+
 /* START HEADER */
 
 /*Caixa de Header*/
 .cabecalho{
-    background:#E8E8E8;
+    background-image: url("1093598.jpg");
     width: 940px;
-    margin: 2.5em auto 0 auto;
+    margin: 2em auto 0 auto;
     position: relative;
     padding: 2.5em 2.5em 2.5em 0;
     text-align: center;
@@ -27,7 +29,10 @@ body{
     font-size: 15px;
     width: 35%;  
 }
-
+.logoAdega:hover{
+    opacity: 0.4;
+    width: 37%;
+}
 .hTitulo{
     font-size: 6em;
     color: 	#FFD700;
@@ -42,17 +47,49 @@ body{
 
 /* END HEADER */
 
-/*START MAIN */
+/* START NAV */
 
+nav{
+    width: 940px;
+    margin: 5em auto 0 auto;
+    background-image: url("1093598.jpg");
+    padding: 1.5em;  
+    box-shadow: 5px 5px 15px 15px #363636;
+    border-radius: 15px;  
+    text-align: center;
+}
+
+.liMenuNavegacao{
+    display: inline-block;  
+    margin: 20px;
+}
+
+.liMenuNavegacao a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: 	#000000;
+}
+
+.liMenuNavegacao a:hover{
+    font-size: 3em;
+    color: 	#FFD700;
+    text-shadow: -3px 3px #CD0000, -5px 5px #FFFFFF;  
+    transition: 300ms;
+}
+/* END NAV */
+
+
+/*START MAIN */
 
 main{
     width: 940px;
-    margin: 6em auto 0 auto;
-    background: #E8E8E8;
+    margin: 6em auto auto auto;
+    background-image: url("1093598.jpg");   
     box-shadow: 5px 5px 15px 15px #363636;
     border-radius: 15px;
     padding: 10px;
-    line-height: 1.2;
+    line-height: 1.2;  
 }
 
 /*START nosso Espaco */
@@ -63,6 +100,9 @@ main{
     text-align: center;
     padding: 1em 0 1em 0;
     font-family: 'Lobster', cursive;
+}
+.hAmbiente:before, .hProdutos:before, .hNossoEstabelecimento:before{
+    content: "🍺";
 }
 
 /* Config de Todos os Paragrafos */
@@ -98,6 +138,7 @@ main{
 
 .bebidasImagem:hover{
     opacity: 0.6;
+    width: 31%;
 }
 .listaProdutosServicos{
     display: inline-block;
@@ -152,14 +193,14 @@ td{
     background: #363636;
     color: #FFFFFF;
 }
-/*END Nosso Estabelecimento
+/*END Nosso Estabelecimento */
 /*END MAIN */
 
 /* START FOOTER */
 footer{
     width: 940px;
     margin: 6em auto 2em auto;
-    background: #E8E8E8;
+    background-image: url("1093598.jpg");
     box-shadow: 5px 5px 15px 15px #363636;
     border-radius: 15px;
 }
@@ -168,6 +209,10 @@ footer{
     width: 50%;
     padding: 0 0 0 12em;
 }   
+.logoAdegaFooter:hover{
+    width: 51%;
+    opacity: 0.4;
+}
 .pRodape{
     text-align: center;
     padding: 0 0 1em 0;
