@@ -1,7 +1,6 @@
-# Projects
-Projetos no geral
-
+#Páginas Web Simples em Html e CSS
 #Adega do Posto:
-  Projeto em Html e CSS.
+  Página unica de uma distribuidora de bebidas.
+  
 #Barbearia Alura:
-  Projeto feito durante o aprendizado de Html e CSS.
+  Conjunto de páginas feitas durante a aprendizagem de html e css básicos.
