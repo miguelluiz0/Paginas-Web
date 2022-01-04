@@ -1,6 +1,6 @@
 //CONEXÃO COM BOT
 const { Telegraf } = require('telegraf');
-Bot_token = '2093462492:AAFrmS2h8RjOyTKNnE685JW98uju5Mwl1rk'
+Bot_token = ''
 const bot = new Telegraf(Bot_token);
 
 
