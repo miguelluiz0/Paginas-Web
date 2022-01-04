@@ -1,6 +1,7 @@
-#Páginas Web Simples em Html e CSS
-#Adega do Posto:
+# HTML e CSS Básicos
+
+## Adega do Posto:
   Página unica de uma distribuidora de bebidas.
   
-#Barbearia Alura:
+## Barbearia Alura:
   Conjunto de páginas feitas durante a aprendizagem de html e css básicos.
